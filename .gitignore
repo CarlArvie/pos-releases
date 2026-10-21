@@ -1,0 +1,13 @@
+# Operating System files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Temporary files
+*.tmp
+*.bak
+*~
+
+# Binaries should be uploaded to GitHub Releases assets, not committed directly to git history
+*.apk
+*.aab
