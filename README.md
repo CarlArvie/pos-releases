@@ -10,7 +10,7 @@ This repository hosts official release APKs, changelogs, and installation instru
 
 You can always download the latest production APK directly from the [Releases](https://github.com/CarlArvie/pos-releases/releases) tab.
 
-* **Latest Release:** [View Latest Release (v1.1.2)](https://github.com/CarlArvie/pos-releases/releases/latest)
+* **Latest Release:** [View Latest Release (v1.1.3)](https://github.com/CarlArvie/pos-releases/releases/latest)
 * **Direct APK Download:** Look for `app-release.apk` under the Assets section of the latest release.
 
 ---
@@ -18,7 +18,7 @@ You can always download the latest production APK directly from the [Releases](h
 ## ⚡ How the In-App Updater Works
 
 Installed POS applications automatically check this repository on app startup and cashier login.
-* When a newer version tag (e.g. `v1.1.2`) is published here with an attached APK, every older app instance (`v1.1.1`, `v1.1.0`, or `v1.0.0`) will automatically pop up an **Update Available** notification.
+* When a newer version tag (e.g. `v1.1.3`) is published here with an attached APK, every older app instance (`v1.1.2`, `v1.1.1`, `v1.1.0`, or `v1.0.0`) will automatically pop up an **Update Available** notification.
 * Cashiers and store managers can tap **"Update Now"** to instantly download and install the new APK without needing access to the private source code repository.
 * If preferred, managers can also check manually inside the app:
   * **Settings ➔ Check for App Updates**
@@ -39,6 +39,7 @@ Installed POS applications automatically check this repository on app startup an
 
 | Version | Release Date | Summary |
 |---|---|---|
+| `v1.1.3` | 2026-11-15 | New **By Product** sales report tab (searchable/filterable full-catalog sales, variant grouping, 0-sales dead-stock filter, lazy per-product trend/receipt drill-down sheet, RBAC-gated P&L columns, and enriched Excel export) + **Allow Negative Stock** now disabled by default (configurable in Settings). |
 | `v1.1.2` | 2026-11-15 | Allow negative stock sales (default ON, Admin toggle in Settings), product/variant archive & staff soft-delete fixes with UTC sync resurrection protection, Staff & Cashiers enable/disable toggle (disabled by default, hidden from drawer when off). |
 | `v1.1.1` | 2026-11-08 | Comprehensive RBAC Security & Manager Overrides, Employee Payroll Management & Payslip Export, Inter-Store Stock Transfers, Waste & Damage Ledger, Cash Denomination Shift Close, Line-Item Cart Discounts & Notes, ESC/POS Hardware. |
 | `v1.1.0` | 2026-11-02 | Multi-store inventory isolation, product barcodes, customer credit & loyalty points, split bills, refund approvals. |
